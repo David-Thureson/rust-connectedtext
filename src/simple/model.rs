@@ -1,8 +1,8 @@
 use std::collections::BTreeMap;
 use chrono::{NaiveDate, Datelike};
 use crate::CT_DUMMY_VALUE;
-use util_rust::group::Grouper;
-use util_rust::{log, parse};
+use util::group::Grouper;
+use util::{log, parse};
 
 #[derive(Debug)]
 pub struct Wiki {

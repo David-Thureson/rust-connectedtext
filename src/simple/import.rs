@@ -2,7 +2,7 @@ use std::{fs, io, path};
 use std::collections::{HashMap, HashSet};
 use crate::*;
 use super::model::{Link, LinkType, Topic, Wiki};
-use util_rust::parse;
+use util::parse;
 
 pub fn fix_file_names(path_full_export_file: &path::Path, path_source: &path::Path, path_dest: &path::Path) -> io::Result<()> {
     assert!(path_source.is_absolute());

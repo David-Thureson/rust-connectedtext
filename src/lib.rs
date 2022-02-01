@@ -7,8 +7,8 @@
 // pub mod util;
 // extern crate itertools;
 
-extern crate util_rust;
-pub use util_rust::*;
+extern crate util;
+pub use util::*;
 
 pub mod audible;
 pub mod gen;

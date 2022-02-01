@@ -7,7 +7,7 @@ use std::fs::File;
 use std::io::BufRead;
 use std::collections::BTreeMap;
 use crate::gen;
-use util_rust::parse;
+use util::parse;
 
 const FILE_IMPORT_BOOKS_PERSONAL: &str = r"E:\ConnectedText Restructure 2020-10-17\Audible Books Personal.txt";
 const FILE_IMPORT_PURCHASE_DATES_PERSONAL: &str = r"E:\ConnectedText Restructure 2020-10-17\Audible Books Purchase History Personal.txt";

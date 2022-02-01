@@ -8,7 +8,7 @@ use std::path;
 
 // use util::html;
 // use util::format;
-use util_rust::group::Grouper;
+use util::group::Grouper;
 use std::fmt::Write;
 use std::collections::BTreeMap;
 
